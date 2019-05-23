@@ -1,0 +1,22 @@
+{
+  "name": "cultivators-lab-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatoProgramming/cultivators-lab-server.git"
+  },
+  "author": "Taylor Putnam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatoProgramming/cultivators-lab-server/issues"
+  },
+  "homepage": "https://github.com/TatoProgramming/cultivators-lab-server#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
