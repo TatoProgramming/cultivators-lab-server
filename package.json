@@ -1,22 +1,36 @@
 {
-  "name": "cultivators-lab-server",
-  "version": "1.0.0",
+  "name": "server",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"TODO create a build proc\"",
+    "watch": "nodemon --exec babel-node ./server.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TatoProgramming/cultivators-lab-server.git"
   },
-  "author": "Taylor Putnam",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TatoProgramming/cultivators-lab-server/issues"
   },
   "homepage": "https://github.com/TatoProgramming/cultivators-lab-server#readme",
   "dependencies": {
-    "express": "^4.17.0"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
   }
 }
